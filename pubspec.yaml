@@ -1,16 +1,17 @@
 name: in_app_purchase_utils
-description: "Flutter plugin for managing subscriptions on iOS (StoreKit) and Android (Google Play)."
-version: 0.0.1
+description: 'Flutter plugin for managing subscriptions on iOS (StoreKit) and Android (Google Play).'
+version: 0.0.2
 homepage: https://kagi.com
+repository: https://github.com/kagisearch/in_app_purchase_utils
 
 environment:
-  sdk: ^3.11.1
+  sdk: ^3.12.2
   flutter: '>=3.3.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.0.2
+  plugin_platform_interface: ^2.1.8
 
 dev_dependencies:
   flutter_test:

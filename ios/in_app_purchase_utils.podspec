@@ -13,7 +13,7 @@ Flutter plugin exposing iOS StoreKit utilities such as AppStore.showManageSubscr
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Kagi' => 'support@kagi.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'in_app_purchase_utils/Sources/in_app_purchase_utils/**/*'
   s.dependency 'Flutter'
   s.platform = :ios, '13.0'
 
@@ -25,5 +25,5 @@ Flutter plugin exposing iOS StoreKit utilities such as AppStore.showManageSubscr
   # required reason APIs, update the PrivacyInfo.xcprivacy file to describe your
   # plugin's privacy impact, and then uncomment this line. For more information,
   # see https://developer.apple.com/documentation/bundleresources/privacy_manifest_files
-  # s.resource_bundles = {'in_app_purchase_utils_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
+  # s.resource_bundles = {'in_app_purchase_utils_privacy' => ['in_app_purchase_utils/Sources/in_app_purchase_utils/PrivacyInfo.xcprivacy']}
 end
